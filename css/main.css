@@ -1,0 +1,179 @@
+* {
+    white-space: nowrap;
+    font-size: 3rem;
+  }
+  
+  img {
+      margin-top: 20px;
+    height: 300px!important;
+    width: 250px!important;
+  }
+  
+  .col-xs-6 {
+    text-align: center
+  }
+  
+  .productTitle {
+    color: red;
+    text-align: center;
+  }
+  
+  .addToCartBtn {
+    width: 50%;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    background: #eb6d69;
+    padding: 1rem;
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  
+  .cartContainer {
+    margin-top: 4rem;
+    font-size: 3rem;
+    text-align: center
+  }
+  
+  .cartContainer img {
+    width: 100px!important;
+    height: 100px!important;
+  }
+  
+  .headingTop {
+    border-top: 1px solid black;
+  }
+  
+  .heading {
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  
+  .cartTitle {
+    color: red;
+    margin-top: 3rem
+  }
+  
+  .cartPrice {
+    margin-top: 3rem
+  }
+  
+  .removeButton {
+      width: 200px;
+    background: rgb(248, 113, 113);
+    cursor: pointer;
+    color: white;
+    margin-top: 3rem
+  }
+  .removeButton:hover{
+    background:var(--red);
+  color:#fff;
+  }
+  
+  .cartQty {
+    margin-top: 3rem
+  }
+  
+  .form-control {
+    color: #000;
+    background-color: #e4cece;
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 0rem 1rem
+  }
+  
+  .totalPrice {
+    margin-top: 4rem
+  }
+  @media(max-width:768px){
+
+    #menu-bar{
+      display: initial;
+    }
+  
+    .header-2 .navbar{
+      position: absolute;
+      top:100%; left: 0; right:0;
+      background:var(--black);
+      padding:1rem 2rem;
+      display: none;
+    }
+  
+    .header-2 .navbar.active{
+      display: initial;
+    }
+  
+    .header-2 .navbar a{
+      font-size: 2.5rem;
+      display: block;
+      text-align: center;
+      background:#fff;
+      padding:1rem;
+      margin:1.5rem 0;
+    }
+  
+    .home .content{
+      text-align: center;
+    }
+  
+    .home .content h3{
+      font-size: 4rem;
+    }
+  
+    .deal{
+      background-position: left;
+    }
+  
+    .deal .content{
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .deal .content .count-down{
+      justify-content: center;
+    }
+  
+    .contact form .inputBox input{
+      width:100%;
+    }
+  
+    .newsletter h3{
+      font-size: 2.2rem;
+    }
+  
+  }
+  
+  @media(max-width:450px){
+  
+    html{
+      font-size: 50%;
+    }
+  
+    .heading{
+      font-size: 3rem;
+    }
+  
+    .header-1{
+      flex-flow: column;
+    }
+  
+    .header-1 .search-box-container{
+      width:100%;
+      margin-top: 2rem;
+    }
+  
+    .logo{
+      font-size: 4rem;
+    }
+  
+    .deal .content .count-down .box h3{
+      font-size: 4rem;
+    }
+  
+    .deal .content .count-down .box span{
+      font-size: 1.5rem;
+    }
+  
+  }
+  
+  
